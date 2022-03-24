@@ -1,0 +1,23 @@
+name: provider_shopper
+description: A shopping app sample that uses Provider for state management.
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Import the provider package.
+  provider: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
